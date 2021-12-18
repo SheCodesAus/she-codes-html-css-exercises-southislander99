@@ -1,0 +1,99 @@
+/* * {
+    border: 1px solid grey;
+} */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main{
+    background-color: rgb(245, 240, 240);
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(221, 55, 138);
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3{
+
+}
+
+h4 {
+    text-transform: uppercase;
+    color: rgb(221, 55, 138);
+}
+
+p {
+    font-size: 12px;
+}
+
+header {
+    height: 40px;
+}
+
+#logo {
+    display:inline-block;
+    margin: 10px 0px 10px 5px;
+}
+
+nav{
+    display: inline-block;
+    margin: 15px 0px 10px 5px;
+    text-align: right;
+    float:right;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    padding-left: 10px;
+}
+
+nav a:hover{
+    color:hotpink;
+}
+
+nav img{
+    width: 18px;
+    padding-left: 10px;
+}
+
+#cohort-cards{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.cards{
+    width: 30%;
+    height: 500px;
+    margin: 5px;
+    background-color: white;
+    display: inline-block;
+}
+
+.cards img{
+    width: 100%;
+    height: 300px;
+}
+
+.card-text{
+    padding: 10px;
+    text-align: left;
+}
+
+.she-he-codes{
+    color: lightgrey;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
