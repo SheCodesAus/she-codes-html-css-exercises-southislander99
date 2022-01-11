@@ -30,3 +30,31 @@ div {
 }
 
 /*** Your code here ***/
+
+@media (min-width: 500px) {
+    body {
+        font-size: 1rem;  
+        }
+    
+    
+    div {
+        display: inline-block;
+        width: 44%;
+    }
+
+    #div-1, #div-2, #div-3, #div-4 {
+        background-color: #1c9251;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+    font-size: 1rem;  
+    }
+
+    div {
+        display: inline-block;
+        background-color: #9370db !important;
+        width: 23%;
+    }
+}
